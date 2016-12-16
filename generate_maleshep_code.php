@@ -55,7 +55,7 @@ $chinDepth = getSliderValue("jaw_chinIn","jaw_chinOut",0.02667,$morphF);
 $chinWidth = getSliderValue("jaw_chinWide","jaw_chinThin",0.04,$morphF);
 $jawWidth = getSliderValue("jaw_narrow","Jaw_Width",0.06667,$morphF); //Used to be jaw_wide, seems to now be Jaw_Width
 
-$mouthShape = mouth_Shape($morphHead);
+$mouthShape = mouth_Shape($morphF);
 $mouthDepth = getSliderValue("mouth_Back","mouth_Forward",0.03667,$morphF);
 $mouthWidth = getSliderValue("mouth_Narrow","mouth_Wide",0.02,$morphF);
 $mouthLipSize = getSliderValue("mouth_lipsThin","mouth_lipsFat",0.02667,$morphF);
